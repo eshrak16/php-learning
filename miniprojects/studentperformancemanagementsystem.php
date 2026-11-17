@@ -68,7 +68,11 @@ echo "8. Exit\n";
 // ==========================================
 
 // TASK 1: Display all students using foreach.
-
+$allstudents = [];
+foreach($students as $student){
+    []= $student;
+    print_r("all students")
+}
 
 // TASK 2: Add a new student using array_push().
 
